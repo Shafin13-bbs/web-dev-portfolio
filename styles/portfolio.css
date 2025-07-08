@@ -125,7 +125,7 @@ main{
     gap: 30px;
     margin-top: 150px;
     border: #474747;
-    box-shadow: #c42a2a;
+    
 }
 .skill-des{
     font-weight: 400;
@@ -135,3 +135,54 @@ main{
     box-shadow: 0px 6px 50px  rgba(154, 144, 217, 0.775);
     border-radius: 20px;
 }
+/* Resume styles */
+.resume-container{
+    display: flex;
+    gap: 130px;
+}
+
+.exp-des{
+    color: #777575;
+}
+.exp-sub-tit{
+    font-size: 20px;
+}
+.exp-tit{
+    font-size: 30px;
+}
+.coloumn-title{
+    font-size: 40px;
+}
+.resume{
+    justify-content: center;
+    margin-top: 150px;
+}
+.resume hr{
+    border: 2px solid black;
+    margin: 30px;
+}
+footer{
+    padding: 130px 230px;
+    gap: 100px;
+}
+footer{
+
+    display: flex;
+    gap: 150px;
+
+}
+footer input[type="text"],footer input[type="email"],footer input[type="submit"]
+{
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    height: 30px;
+    background-color: rgba(206, 189, 166, 0.622);
+}
+footer textarea{
+    font-size: 20px;
+    height: 200px;
+    width: 400px;
+    background-color: rgba(206, 189, 166, 0.622);
+}
+
